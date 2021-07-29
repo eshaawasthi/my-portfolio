@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { NavigationBarComponent } from './components/navigation-bar/navigation-bar.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { MainBackgroundComponent } from './components/main-background/main-background.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    NavigationBarComponent,
+    PageNotFoundComponent,
+    MainBackgroundComponent
   ],
   imports: [
     BrowserModule,
