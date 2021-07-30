@@ -1,0 +1,34 @@
+.margin-top-45{
+    margin-top:45px;
+}
+.card{
+    border: 0px;
+    border-radius: 18px;
+    padding: 36px 25px;
+    color: #5e5c7f;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card-container{
+    flex:1;
+    padding: 0px 14px;
+}
+.card:before {
+    content: "";
+    position: absolute;
+    left: -33px;
+    top: 50px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 21px solid transparent;
+    border-right: 33px solid #fff;
+}
+app-percentage-bar:not(:first-child){
+    margin-top:20px;
+    display: block;
+}

@@ -1,0 +1,6 @@
+<div class="skill-heading disp-inline">{{skill}}</div>
+<span class="percentage">{{percentage}}%</span>
+<div class="progress mt-2">
+    <div class="progress-bar progress-bar-striped" role="progressbar" [ngStyle]="getPercentage()"
+        aria-valuenow="percentage" aria-valuemin="0" aria-valuemax="100">{{percentage}}%</div>
+</div>

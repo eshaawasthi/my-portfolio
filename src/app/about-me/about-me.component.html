@@ -1,0 +1,27 @@
+<div class="about-wrapper">
+    <div class="container">
+        <div class="row">
+            <h2 class="title">About Me</h2>
+            <div class="col-3 margin-top-45">
+                <div class="image">
+                    <img width="190" height="190" [src]="personalDetails.image" alt="my-profile" />
+                </div>
+            </div>
+            <div class="col-9 margin-top-45">
+                <div class="card">
+                    <div class="card-container disp-inline">
+                        <p class="desc">{{personalDetails.aboutMe}}</p>
+                        <span class="pt-3">
+                            <button class="btn-custom">Download CV</button>
+                        </span>
+                    </div>
+                    <div class="card-container disp-inline">
+                        <app-percentage-bar *ngFor="let item of personalDetails.skillList" [skillName]="item.skillName"
+                            [percentage]="item.percentage" [progressBarColor]="item.progressBarColor">
+                        </app-percentage-bar>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
