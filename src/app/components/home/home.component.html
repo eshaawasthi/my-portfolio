@@ -1,10 +1,10 @@
 <div class="home-wrapper">
     <app-main-background></app-main-background>
     <div class="image disp-flex">
-        <img width="130" height="130" src="assets\images\thumbnail_esha.jpg" alt="my-profile" />
+        <img width="130" height="130" [src]="personalDetails.image" alt="my-profile" />
     </div>
-    <span class="title disp-flex pt-3">Esha Awasthi</span>
-    <span class="desc disp-flex pt-3">I'm a Full Stack Developer</span>
+    <span class="title disp-flex pt-3">{{personalDetails.name}}</span>
+    <span class="desc disp-flex pt-3">{{personalDetails.title}}</span>
     <span class="icon-about disp-flex pt-3">
         <i class="fa fa-linkedin-square" aria-hidden="true"></i>
         <i class="fa fa-github" aria-hidden="true"></i>

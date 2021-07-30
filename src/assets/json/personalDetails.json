@@ -1,5 +1,7 @@
 {
     "personalDetails": {
+        "name": "Esha Awasthi",
+        "title": "I'm a Full Stack Developer",
         "image": "assets/images/thumbnail_esha.jpg",
         "aboutMe": "I am Esha Awasthi, Full Stack Developer from Pune, India. I have rich experience in web application development and customization, also I am good at Agile.",
         "skillList": [

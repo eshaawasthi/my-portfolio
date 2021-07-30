@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.less']
 })
 export class HomeComponent implements OnInit {
+  public personalDetails = {
+    "name": "Esha Awasthi",
+    "title": "I'm a Full Stack Developer",
+    "image": "assets/images/thumbnail_esha.jpg"
+  }
 
   constructor() { }
 

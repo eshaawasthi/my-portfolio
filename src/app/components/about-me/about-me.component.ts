@@ -25,6 +25,29 @@ export class AboutMeComponent implements OnInit {
         "percentage": "90",
         "progressBarColor": "#6c6ce5"
       }
+    ],
+    "metricStats": [
+      {
+        "metric": "10",
+        "title": "Projects",
+        "iconClass": "fa-thumbs-o-up"
+      },
+      {
+        "metric": "3.5",
+        "title": "Experience",
+        "iconClass": "fa-calendar-check-o"
+      },
+      {
+        "metric": "400",
+        "title": "Cup of Coffee",
+        "iconClass": "fa-coffee"
+      },
+      {
+        "metric": "10",
+        "title": "Certifications",
+        "iconClass": "fa-certificate"
+      }
+
     ]
   }
 
