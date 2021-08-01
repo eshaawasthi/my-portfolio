@@ -1,0 +1,12 @@
+<div class="row ml-4">
+    <h2 class="title">Services</h2>
+    <div class="col-md-4 mb-3" *ngFor="let item of data.skillSet; let i=index;">
+        <div class="card" [ngStyle]="getColor(i)">
+            <i class="fa skill-icon" [ngClass]="item.iconClass" aria-hidden="true"></i>
+            <div class="card-body">
+                <h4 class="card-title text-center">{{item.title}}</h4>
+                <p class="card-text text-center">{{item.desc}}</p>
+            </div>
+        </div>
+    </div>
+</div>

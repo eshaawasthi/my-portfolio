@@ -10,6 +10,7 @@ import { MainBackgroundComponent } from './components/common/main-background/mai
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { PercentageBarComponent } from './components/common/percentage-bar/percentage-bar.component';
 import { MetricsHorizontalListComponent } from './components/common/metrics-horizontal-list/metrics-horizontal-list.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MetricsHorizontalListComponent } from './components/common/metrics-hori
     MainBackgroundComponent,
     AboutMeComponent,
     PercentageBarComponent,
-    MetricsHorizontalListComponent
+    MetricsHorizontalListComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

@@ -42,6 +42,23 @@
                 "title": "Certifications",
                 "iconClass": "fa-certificate"
             }
+        ],
+        "skillSet": [
+            {
+                "iconClass": "fa-laptop",
+                "title": "Full Stack Development",
+                "desc": "Experienced in technologies such as Angular, HTML5 , CSS3, Javascript, Bootstrap, Spring Boot Services, PostgreSQL, Git, Visual Studio, Micorsoft."
+            },
+            {
+                "iconClass": "fa-tasks",
+                "title": "Project Management",
+                "desc": "I could handle projects along with interacting with clients/ Business Analyst for requirments. Ability to handle Agile Projects along with Deployment Activities"
+            },
+            {
+                "iconClass": "fa-users",
+                "title": "Team Management",
+                "desc": "Ability to manage and work in a big team with Agile methodologies. Experienced in mentoring freshers and giving them KT and support as when required."
+            }
         ]
     }
 }
