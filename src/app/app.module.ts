@@ -11,6 +11,7 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { PercentageBarComponent } from './components/common/percentage-bar/percentage-bar.component';
 import { MetricsHorizontalListComponent } from './components/common/metrics-horizontal-list/metrics-horizontal-list.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SkillsComponent } from './components/skills/skills.component';
     AboutMeComponent,
     PercentageBarComponent,
     MetricsHorizontalListComponent,
-    SkillsComponent
+    SkillsComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,

@@ -59,6 +59,40 @@
                 "title": "Team Management",
                 "desc": "Ability to manage and work in a big team with Agile methodologies. Experienced in mentoring freshers and giving them KT and support as when required."
             }
+        ],
+        "academics": [
+            {
+                "year": "2012 - 13",
+                "title": "Academic Degree",
+                "desc": "Kendriya Vidhyalaya Vehicle Factory, Jabalpur - Secured 87.8% in 12th Standard with PCM, Computer Science."
+            },
+            {
+                "year": "2013 - 18",
+                "title": "Bachelor's Degree",
+                "desc": "Rajiv Gandhi Technical University, Bhopal - Dual Degree Integrated Post Graduate Programme, 8.57 CGPA with CSE branch."
+            },
+            {
+                "year": "2013 - 18",
+                "title": "Master's Degree",
+                "desc": "Rajiv Gandhi Technical University, Bhopal - Dual Degree Integrated Post Graduate Programme, 8.57 CGPA with CSE branch."
+            }
+        ],
+        "experience": [
+            {
+                "year": "2016 - 17",
+                "title": "Web Developer",
+                "desc": "Insignia Web and Marketing Pvt. Ltd., Bhopal - Full time Internship; Handled more than 5 Projects within a period of 6 months."
+            },
+            {
+                "year": "2018-21",
+                "title": "Full Stack Developer",
+                "desc": "Tata Consultancy Services Pvt Ltd., Hyderabad - 2.5 Years Experience working in Angular, HTML5, CSS3, JS, Core Java etc."
+            },
+            {
+                "year": "2021- present",
+                "title": "Application Development Analyst",
+                "desc": "Accenture Technology, Pune - 1+ Years Experience working in Front End Technologies in a European Based Banking Project."
+            }
         ]
     }
 }

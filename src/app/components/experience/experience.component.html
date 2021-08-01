@@ -1,0 +1,39 @@
+<div class="container exp-wrapper">
+    <div class="row">
+        <div class="col-12">
+            <h3 class="title mb-4">Experience</h3>
+            <div class="row">
+                <div class="col-6">
+                    <div class="card-custom">
+                        <div class="card-list" *ngFor="let item of data.academics">
+                            <div class="year icon-academic">
+                                {{item.year}}
+                            </div>
+                            <div class="title1">
+                                {{item.title}}
+                            </div>
+                            <div class="desc">
+                                {{item.desc}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card-custom">
+                        <div class="card-list" *ngFor="let item of data.experience">
+                            <div class="year icon-exp">
+                                {{item.year}}
+                            </div>
+                            <div class="title1">
+                                {{item.title}}
+                            </div>
+                            <div class="desc">
+                                {{item.desc}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
