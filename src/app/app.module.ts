@@ -12,6 +12,7 @@ import { PercentageBarComponent } from './components/common/percentage-bar/perce
 import { MetricsHorizontalListComponent } from './components/common/metrics-horizontal-list/metrics-horizontal-list.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ExperienceComponent } from './components/experience/experience.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ExperienceComponent } from './components/experience/experience.componen
     PercentageBarComponent,
     MetricsHorizontalListComponent,
     SkillsComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

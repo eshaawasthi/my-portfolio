@@ -1,0 +1,48 @@
+.card {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 26px;
+    cursor: pointer;
+    height: 291px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border: 0px;
+    width: 85%;
+}
+.project-wrapper{
+        max-height: 100%;
+        margin-top: 45px;
+        margin-bottom: 60px;
+        padding-top: 45px;
+        padding-bottom: 60px;
+}
+.project-icon{
+    font-size: 100px;
+    display: block;
+}
+.card-overlay{
+    display: none;
+    position: absolute;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    border-radius: 26px;
+    cursor: pointer;
+    color: #fff;
+    padding: 100px 0px;
+}
+.card:hover .card-overlay{
+    display: block;
+    transition: all 0.3s ease-in-out;
+
+}
+.card:hover .project-icon{
+    display: none;
+    transition: all 0.3s ease-in-out;
+}

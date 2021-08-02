@@ -93,6 +93,62 @@
                 "title": "Application Development Analyst",
                 "desc": "Accenture Technology, Pune - 1+ Years Experience working in Front End Technologies in a European Based Banking Project."
             }
+        ],
+        "projects": [
+            {
+                "projectTitle": "StopWatch Web App",
+                "iconClass": "fa-clock-o",
+                "gitHubLink": "#",
+                "websiteLink": "www.stopwatch.ka"
+            },
+            {
+                "projectTitle": "Calculator Web App",
+                "iconClass": "fa-calculator",
+                "gitHubLink": "#",
+                "websiteLink": "#"
+            },
+            {
+                "projectTitle": "Shopping Base Application",
+                "iconClass": "fa-shopping-cart",
+                "gitHubLink": "#",
+                "websiteLink": "#"
+            },
+            {
+                "projectTitle": "Standard Chat Application",
+                "iconClass": "fa-whatsapp",
+                "gitHubLink": "#",
+                "websiteLink": "#"
+            },
+            {
+                "projectTitle": "To Do List App",
+                "iconClass": "fa-list-alt",
+                "gitHubLink": "#",
+                "websiteLink": "#"
+            },
+            {
+                "projectTitle": "Mortgage Loan Calculator",
+                "iconClass": "fa-university",
+                "gitHubLink": "#",
+                "websiteLink": "#"
+            },
+            {
+                "projectTitle": "Weight Conversion App",
+                "iconClass": "fa-arrows",
+                "gitHubLink": "#",
+                "websiteLink": "#"
+            },
+            {
+                "projectTitle": "Contact form using local storage",
+                "iconClass": "fa-archive",
+                "gitHubLink": "#",
+                "websiteLink": "#"
+            },
+            {
+                "projectTitle": "Light Effect Project",
+                "iconClass": "fa-lightbulb-o",
+                "gitHubLink": "#",
+                "websiteLink": "#"
+            }
         ]
     }
 }

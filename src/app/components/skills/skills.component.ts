@@ -14,9 +14,8 @@ export class SkillsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  getColor(index) {
-    let i = index % 2 === 0 ? 1 : 2;
-    switch (index) {
+  getColor(i) {
+    switch (i) {
       case 0:
         return { 'background-color': "#6c6ce5", 'color': "#fff" };
       case 1:
