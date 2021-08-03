@@ -3,9 +3,9 @@
     justify-content: center;
     align-items: center;
     margin: 20px;
-    border-radius: 26px;
+    border-top-right-radius: 10px;
     cursor: pointer;
-    height: 291px;
+    height: 220px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     border: 0px;
     width: 85%;
@@ -18,31 +18,33 @@
         padding-bottom: 60px;
 }
 .project-icon{
-    font-size: 100px;
-    display: block;
+    font-size: 35px;
+    background-color: #4280f1;
+    border-radius: 50%;
+    color: #fff!important;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .card-overlay{
-    display: none;
     position: absolute;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.7);
     text-align: center;
-    border-radius: 26px;
+    border-top-right-radius: 10px;
     cursor: pointer;
     color: #fff;
     padding: 100px 0px;
+    opacity: 0;
 }
 .card:hover .card-overlay{
-    display: block;
-    transition: all 0.3s ease-in-out;
-
-}
-.card:hover .project-icon{
-    display: none;
-    transition: all 0.3s ease-in-out;
+    opacity: 1;
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgb(0 0 0 / 11%), 0 24px 46px #8a2be20d;
 }

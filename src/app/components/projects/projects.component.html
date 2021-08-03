@@ -1,7 +1,7 @@
 <div class="container project-wrapper">
     <div class="row ml-4">
         <h2 class="title mb-5">Recent Projects</h2>
-        <div class="col-md-4 mb-3" *ngFor="let item of data.projects; let i=index;">
+        <div class="col-md-3 mb-3" *ngFor="let item of data.projects; let i=index;">
             <div class="card">
                 <i class="fa project-icon" [ngStyle]="getColor(i)" [ngClass]="item.iconClass" aria-hidden="true"></i>
                 <div class="card-overlay">
