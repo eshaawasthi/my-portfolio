@@ -12,16 +12,20 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  getColor(i?) {
-    return { 'color': this.getRandomColor() };
-  }
-  getRandomColor() {
-    var letters = '0123456789ABCDEF';
-    var color = '#';
-    for (var i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
+  // getColor(i?) {
+  //   return { 'color': this.getRandomColor() };
+  // }
+  // getRandomColor() {
+  //   var letters = '0123456789ABCDEF';
+  //   var color = '#';
+  //   for (var i = 0; i < 6; i++) {
+  //     color += letters[Math.floor(Math.random() * 16)];
+  //   }
+  //   return color;
+  // }
+
+  redirectToProject(websiteUrl) {
+    window.location.href = websiteUrl;
   }
 
 }
