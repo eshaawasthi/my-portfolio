@@ -13,6 +13,7 @@ import { MetricsHorizontalListComponent } from './components/common/metrics-hori
 import { SkillsComponent } from './components/skills/skills.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { ContactMeComponent } from './components/contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
     MetricsHorizontalListComponent,
     SkillsComponent,
     ExperienceComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,
