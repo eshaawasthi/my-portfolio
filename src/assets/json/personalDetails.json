@@ -69,24 +69,24 @@
             {
                 "year": "2013 - 18",
                 "title": "Bachelor's Degree",
-                "desc": "Rajiv Gandhi Technical University, Bhopal - Dual Degree Integrated Post Graduate Programme, 8.57 CGPA with CSE branch."
+                "desc": "Rajiv Gandhi Technical University, Bhopal - Dual Degree Integrated Post Graduate Programme, 8.57 CGPA (CSE)."
             },
             {
                 "year": "2013 - 18",
                 "title": "Master's Degree",
-                "desc": "Rajiv Gandhi Technical University, Bhopal - Dual Degree Integrated Post Graduate Programme, 8.57 CGPA with CSE branch."
+                "desc": "Rajiv Gandhi Technical University, Bhopal - Dual Degree Integrated Post Graduate Programme, 8.57 CGPA (CSE)."
             }
         ],
         "experience": [
             {
                 "year": "2016 - 17",
                 "title": "Web Developer",
-                "desc": "Insignia Web and Marketing Pvt. Ltd., Bhopal - Full time Internship; Handled more than 5 Projects within a period of 6 months."
+                "desc": "Insignia Web and Marketing Pvt. Ltd., Bhopal - Full time Internship; Worked on 5+ Web applications in 6 Months."
             },
             {
                 "year": "2018-21",
                 "title": "Full Stack Developer",
-                "desc": "Tata Consultancy Services Pvt Ltd., Hyderabad - 2.5 Years Experience working in Angular, HTML5, CSS3, JS, Core Java etc."
+                "desc": "Tata Consultancy Services Pvt Ltd., Hyderabad - 2.5 Years Experience working in Angular, HTML5, CSS3, JS, Spring boot."
             },
             {
                 "year": "2021- present",
@@ -97,55 +97,19 @@
         "projects": [
             {
                 "projectTitle": "StopWatch Web App",
-                "iconClass": "fa-clock-o",
+                "imageUrl": "assets/images/stopwatch.svg",
                 "gitHubLink": "#",
                 "websiteLink": "http://www.stopwatch.ka"
             },
             {
-                "projectTitle": "Calculator Web App",
-                "iconClass": "fa-calculator",
-                "gitHubLink": "#",
-                "websiteLink": "#"
-            },
-            {
                 "projectTitle": "Shopping Base Application",
-                "iconClass": "fa-shopping-cart",
-                "gitHubLink": "#",
-                "websiteLink": "#"
-            },
-            {
-                "projectTitle": "Standard Chat Application",
-                "iconClass": "fa-whatsapp",
+                "imageUrl": "assets/images/ecommerce.svg",
                 "gitHubLink": "#",
                 "websiteLink": "#"
             },
             {
                 "projectTitle": "To Do List App",
-                "iconClass": "fa-list-alt",
-                "gitHubLink": "#",
-                "websiteLink": "#"
-            },
-            {
-                "projectTitle": "Mortgage Loan Calculator",
-                "iconClass": "fa-university",
-                "gitHubLink": "#",
-                "websiteLink": "#"
-            },
-            {
-                "projectTitle": "Weight Conversion App",
-                "iconClass": "fa-arrows",
-                "gitHubLink": "#",
-                "websiteLink": "#"
-            },
-            {
-                "projectTitle": "Contact form using local storage",
-                "iconClass": "fa-archive",
-                "gitHubLink": "#",
-                "websiteLink": "#"
-            },
-            {
-                "projectTitle": "Light Effect Project",
-                "iconClass": "fa-lightbulb-o",
+                "imageUrl": "assets/images/todo.svg",
                 "gitHubLink": "#",
                 "websiteLink": "#"
             }

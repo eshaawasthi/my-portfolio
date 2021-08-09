@@ -1,15 +1,12 @@
 <div class="container project-wrapper">
     <div class="row ml-4">
-        <h2 class="title mb-5">Recent Projects</h2>
-        <div class="col-md-3 mb-3" *ngFor="let item of data.projects; let i=index;">
+        <h2 class="title mb-5">Recent Works</h2>
+        <div class="col-md-4 mb-3" *ngFor="let item of data.projects; let i=index;">
             <div class="card">
-                <i class="fa project-icon" [ngClass]="item.iconClass" aria-hidden="true"></i>
+                <img width="190" height="190" [src]="item.imageUrl" alt="my-profile" />
                 <div class="card-overlay">
                 </div>
-                <div class="project-title">
-                    {{item.projectTitle}}
-                </div>
-                <button class="btn-custom" (click)="redirectToProject(item.websiteLink)">Visit</button>
+                <button class="btn-project" (click)="redirectToProject(item.websiteLink)">Comming Soon!</button>
             </div>
         </div>
     </div>

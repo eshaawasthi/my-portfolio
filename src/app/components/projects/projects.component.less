@@ -3,21 +3,22 @@
     justify-content: center;
     align-items: center;
     margin: 20px;
-    border-top-right-radius: 10px;
+    border-top-right-radius: 20px;
     cursor: pointer;
-    height: 220px;
+    height: 100%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     border: 0px;
-    width: 85%;
+    width: 90%;
     overflow: hidden;
+    padding: 25px;
 }
-.project-wrapper{
-        max-height: 100%;
-        margin-top: 45px;
-        margin-bottom: 60px;
-        padding-top: 45px;
-        padding-bottom: 60px;
-}
+// .project-wrapper{
+//         max-height: 100%;
+//         margin-top: 45px;
+//         margin-bottom: 60px;
+//         padding-top: 45px;
+//         padding-bottom: 60px;
+// }
 .project-icon{
     font-size: 30px;
     background-color: #4280f1;
@@ -34,7 +35,7 @@
     transform: translateY(0px);
     opacity: 1;
 }
-.card:hover .btn-custom{
+.card:hover .btn-project{
     opacity: 1;
 }
 .card:hover .project-title{
@@ -58,20 +59,18 @@
     margin-top: 20px;
     font-weight: 600;
 }
-.btn-custom {
-    padding: 4px 0px;
-    margin-top: 20px;
+
+.btn-project{
+    padding: 4px 10px;
     font-size: 14px;
     background-color: transparent;
-    border: 3px solid #ffffff;
+    border: 2px solid #ffffff;
     color: #fff;
-    font-weight: 800;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.03rem;
     line-height: 1.9em;
     opacity: 0;
     transition: transform 0.3s ease-out;
     position: absolute;
-    border-radius: 3px;
+    border-radius: 5px;
     bottom: 36px;
-    width: 35%;
 }
