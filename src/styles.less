@@ -1,8 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+:root{
+    --theme-color: #ff4c60;
+}
 
 .primary-color{
-    background-color: #4280f1;
+    background-color: var(--theme-color);;
     color: #fff;
 }
 body{
@@ -24,18 +27,24 @@ body{
     color: #525252;
 }
 .btn-custom {
-    background-color: #4280f1;
-    border: #4280f1;
+    background-color: var(--theme-color);;
+    border: var(--theme-color);;
     border-radius: 30px;
     color: #fff;
     line-height: 1.9em;
     padding: 8px 35px;
     font-size: 17px;
-    font-weight: 700;
+    font-weight: 500;
 }
 .disp-inline{
     display:inline-block;
 }
 a{
     text-decoration: none;
+}
+button:disabled,
+button[disabled]{
+    border: 1px solid #9999999e;
+    background-color: #cccccc61;
+    color: #66666675;
 }
