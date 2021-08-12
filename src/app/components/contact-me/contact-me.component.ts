@@ -12,7 +12,12 @@ export class ContactMeComponent implements OnInit {
   data: any = data.personalDetails;
   public isMessageSent: boolean = false;
   public messageCode: string = '';
-
+  person = {
+    "name": '',
+    "message": '',
+    "emailId": '',
+    "subject": ''
+  }
   constructor() { }
 
   ngOnInit(): void {

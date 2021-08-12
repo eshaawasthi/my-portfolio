@@ -3,7 +3,7 @@
     </app-alerts>
     <div class="row">
         <h2 class="title">Get In Touch</h2>
-        <div class="col-4 background-img margin-top-45">
+        <div class="col-lg-4 col-md-4 col-sm-12 background-img margin-top-45">
             <div class="contact-info">
                 Let's talk about everything!!
             </div>
@@ -11,23 +11,24 @@
                         href="mailto:eshaawasthi55@gmail.com">email.</a><i class="fa fa-envelope-o"
                         aria-hidden="true"></i></span></div>
         </div>
-        <div class="col-8 margin-top-45">
+        <div class="col-lg-8 col-md-8 col-sm-12 margin-top-45">
             <form (ngSubmit)="sendMail($event)">
                 <div class="form-group disp-flex">
-                    <input type="text" class="form-control mr-20" name="name" [(ngModel)]="name" placeholder="Your Name"
-                        [required]="true">
-                    <input type="email" class="form-control" name="email" [(ngModel)]="emailId"
+                    <input type="text" class="form-control mr-20" name="name" [(ngModel)]="person.name"
+                        placeholder="Your Name" [required]="true">
+                    <input type="email" class="form-control" name="email" [(ngModel)]="person.emailId"
                         placeholder="Email Address" [required]="true">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" name="subject" [(ngModel)]="subject" placeholder="Subject"
-                        [required]="true">
+                    <input type="text" class="form-control" name="subject" [(ngModel)]="person.subject"
+                        placeholder="Subject" [required]="true">
                 </div>
                 <div class="form-group">
-                    <textarea type="text" class="form-control" rows="4" [(ngModel)]="message" placeholder="Message"
-                        name="message" [required]="true"></textarea>
+                    <textarea type="text" class="form-control" rows="4" [(ngModel)]="person.message"
+                        placeholder="Message" name="message" [required]="true"></textarea>
                 </div>
-                <button class="btn-custom" [disabled]="!name || !emailId || !subject || !message">Send
+                <button class="btn-custom"
+                    [disabled]="!person.name || !person.emailId || !person.subject || !person.message">Send
                     Message</button>
             </form>
         </div>
