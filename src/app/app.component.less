@@ -2,12 +2,20 @@
     display: flex;
     justify-content: center;
     position: relative;
+    align-items: center;    
 }
 .row{
     height: 100vh;
 }
+.overflow{
+    overflow-y: scroll;
+}
 @media screen and (max-width: 800px) {
     .app-wrapper {
-        text-align: center
+        text-align: center;
+        align-items: initial!important;
     }
+    .overflow{
+        padding: 0px;
   }
+}
