@@ -27,5 +27,45 @@
 .active{
     color: var(--theme-color);;
 }
-
+.responsive-nav{
+    opacity: 0;
+}
+@media screen and (max-width: 800px) {
+    .navigation-wrapper{
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        height: 10vh !important;
+        width: 90vw !important;
+    }
+    .logo-icon span {
+        margin-bottom: 0px !important;
+    }
+    .responsive-nav{
+        opacity: 1;
+        position: relative;
+        right: 0px;
+        top: 0px;
+    }
+    .full-width-nav{
+        display: none;
+    }
+    .responsive-navbar{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        background-color: #e9ecef;
+        top: 0px;
+        z-index: 1;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    i.fa {
+        margin-right: 10px;
+    }
+  }
 

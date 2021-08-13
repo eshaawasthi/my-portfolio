@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio-esha';
+  isResponsiveNav: boolean = true;
+
+  isResponsiveNavValue(e?) {
+    this.isResponsiveNav = e;
+  }
 }
